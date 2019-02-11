@@ -1,3 +1,4 @@
 *.pickle
 *-testing*
 *.pyc
+__pycache__/
