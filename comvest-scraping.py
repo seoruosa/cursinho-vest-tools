@@ -7,7 +7,9 @@ from time import sleep
 from random import random
 import pickle
 
-HOST = "http://www2.comvest.unicamp.br/" #/vestibulares-anteriores/1a-fase-2a-fase-comentadas/
+#HOST = "http://www2.comvest.unicamp.br/" #/vestibulares-anteriores/1a-fase-2a-fase-comentadas/
+HOST = "http://www.provasdevestibular.com.br/"
+fileoutname = 'provasdevestibular'
 
 # lists with links to the website
 all_visited_pages=set()
@@ -50,7 +52,7 @@ while len(have_to_visit)>0:
 
 	print("have_to_visit: {:d}  --  all_visited_pages: {:d}  --  all_links: {:d}".format(len(have_to_visit),len(all_visited_pages), len(all_links)))
 
-	filename = 'results.pickle'
+	filename = 'results_{}.pickle'.format(fileoutname)
 	with open(filename, 'wb') as f:
 		pickle.dump({'garbage_links': garbage_links, 
 					'all_links': all_links, 

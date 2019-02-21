@@ -26,6 +26,7 @@
 ### Canais Youtube
 
 ## Cursinhos Populares
+- http://semeandoeducacao.org/index.php/cursinhos-populares/
 
 ## Cursinhos Online
 - https://www.mesalva.com/
@@ -57,3 +58,5 @@
 
 ## Outros
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- https://libertese.github.io/apostilas.html
+- *crawler*
